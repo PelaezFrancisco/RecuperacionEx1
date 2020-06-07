@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PaginaPrincipalTickets</title>
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="Principal Tickets" />
+    <link rel="stylesheet" type="text/css" href="css/diseno.css">
+    <script src="buscar.js" type="text/javascript" ></script>
+<!--    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">-->
+</head>
+<body> 
+    <header >
+            <div>
+                <a href="index.html" ><img src="images/logo.png" alt="Imagen de Portada" class="logo"></a>
+            </div>
+    </header>
+
+        <nav>
+            <ul class="menu">
+                <a href="index.html" target="blank">Inicio</a></li>
+                <a href="docs/agregarPersona.html" target="self">Agregar Persona</a>
+                <a href="docs/agregarTicket.php" target="blank">Agregar de Ticket</a>
+                <a href="php/listarTickets.php" target="blank">Listar Tickets</a>
+                <a href="index.html" target="blank">Buscar Personas</a>
+            </ul>
+        </nav>
+        <div class="art1">
+      
+        <section class="secc2">
+            <form method="POST" onsubmit="return buscarPorCedula()" >
+                <h2>Ingrese el codigo:  </h2>
+                <br>
+                <input type="text" id="cedula" name="cedula" value=""> <br>
+                <br>
+                <input type="button" id="busc" name="buscar" value="Buscar" onclick="buscarPorCedula()" />
+                <br><br>
+            </form>
+
+        <div id="informacion" class="informacion"></div>
+        </section>
+
+        <div class="secc4">
+            <section class="secc41">
+                <h2>Colaboradores</h2>
+                <div class="caja1">
+                    <br>
+                    <div>
+                        <img class="img" id="img1" src="images/colab1.png" width="200" height="200">
+                        <br><br>
+                        <p class="img"> <strong>Juan Francisco Peláez Becerra</strong> </p>
+                    </div>  
+                </div>
+
+            </section>
+    
+        </div>
+        
+        <footer>
+            <div class="secc5">
+        
+    
+                <div class="secc51">
+                    <div class="info">
+                        <h3>Informaci&oacute;n</h3>
+                        <p>&#8226; Nombre: Juan Francisco Pelaez Becerra </p><br>
+                        <p>&#8226; Universidad Polit&eacute;cnica Salesiana </p><br>
+                        <p>&#8226; Email: <a href="mailto:jpelaezb1@est.ups.edu.ec">jpelaezb1@est.ups.edu.ec</a></p><br>
+                        <p>&#8226; Call: <a href="tel:+593939082637">(593) 0939082637</a></p><br>
+                        <p>&#169;Todos los derechos reservados</p>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+    </body>
+</html>

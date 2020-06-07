@@ -1,0 +1,200 @@
+body{
+    background-color: aqua;
+}
+header{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    width: 98.5%;
+    height: 280px;
+}
+nav{
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+    font-family: arial;
+    background-color: antiquewhite;
+    }
+.logo{
+    position: relative;
+    top: 25px;
+    left: 450px;
+    width: 450px;
+}
+    nav a:hover{
+    background:-moz-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32));
+    background:-webkit-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32))  ;
+    color: #ffffff;
+    }
+    nav a:link {
+    margin-left: 6%;
+    margin-right: 6%;
+    text-decoration: none;
+    }
+    nav a:visited {
+    text-decoration:none;
+    }
+    .menu_h{
+      list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu_h a {
+    margin: 5px;
+    width: 240px;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid white;
+    display: block;
+    background-color: antiquewhite;
+    font-size: 12px;
+    font-style: italic; 
+    color:black;    
+    }
+    .menu_h li{
+    float: left;
+    top:4px;
+    position: relative;
+    color: white;
+    }
+    a {
+    top:50px;
+    color: black;
+    }
+    .secc2{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    width: 98.5%;
+    height: 220px;
+    }
+    .secc2 input{
+        position: relative;
+        left: 40%;
+    }
+    .secc21{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: wheat;
+        width: 98.5%;
+        height: 160px;
+    }
+
+    .secciones{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: antiquewhite;
+        width: 98.5%;
+    }
+
+    h2{
+        position: relative;
+        left: 40%;
+    }
+    .secc21 .cedula{
+        position: relative;
+        left: 40%;
+    }
+    .secc21 .buscar{
+        position: relative;
+        top: 10px;
+        left: 44%;
+    }
+    .secc4{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: antiquewhite;
+        width: 98.5%;
+        height: 420px;
+    }
+    .caja1{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: wheat;
+        width: 98.5%;
+        height: 360px;
+    }
+    .img{
+        position: relative;
+        left: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .secc5{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: antiquewhite;
+        width: 98.5%;
+        height: 420px;
+    }
+    .secc51{
+        position: relative;
+        top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: wheat;
+        width: 98.5%;
+        height: 360px;
+    }
+    .info{
+        position: relative;
+        left: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .secc1{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: antiquewhite;
+        width: 98.5%;
+        height: 420px;
+    }
+    .secc11{
+        position: relative;
+        top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: wheat;
+        width: 98.5%;
+        height: 360px;
+    }
+
+    .secc11 input{
+        position: relative;
+        top: 10px;
+        left: 40%;
+    }
+    .secc11 label{
+        position: relative;
+        top: 10px;
+        left: 40%;
+    }
+    table {
+        position: relative;
+        top: 5%;
+        left: 18%;
+        border-collapse: collapse;
+      }
+      
+      table, th, td {
+        border: 1px solid black;
+      }
+      .informacion{
+          position: relative;
+          left: -265px;
+      }
